@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="Craftable Creative Ability"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="xianmouyin"
+authors="xianomouyin, MCreator"
 
 [[dependencies.craftable_creative_ability]]
     modId="minecraft"
