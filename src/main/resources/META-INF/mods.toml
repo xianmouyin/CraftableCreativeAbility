@@ -3,7 +3,7 @@ loaderVersion="[36,)"
 license="MIT"
 [[mods]]
 modId="craftable_creative_ability"
-version="1.1"
+version="1.2"
 displayName="Craftable Creative Ability"
 logoFile="icon.png"
 authors="xianmouyin"
@@ -25,12 +25,12 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/craftable-creative-abil
 [[dependencies.craftable_creative_ability]]
     modId="mantle"
     mandatory=true
-    versionRange="[1.6.115,)"
+    versionRange="[1.6.147,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.craftable_creative_ability]]
     modId="tconstruct"
     mandatory=true
-    versionRange="[3.1.1.252,)"
+    versionRange="[3.3.0.308,)"
     ordering="NONE"
     side="BOTH"

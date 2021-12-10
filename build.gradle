@@ -4,14 +4,13 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.7', changing: true
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
-apply plugin: 'maven-publish'
 
-version = '1.0'
+version = '1.2'
 group = 'com.xianmouyin.craftable_creative_ability'
 archivesBaseName = 'craftable_creative_ability'
 
@@ -50,9 +49,9 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.2'
-    compile fg.deobf("slimeknights.mantle:Mantle:1.16.5-1.6.115")
-    compile fg.deobf("slimeknights.tconstruct:TConstruct:1.16.5-3.1.1.252")
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.19'
+    compile fg.deobf("slimeknights.mantle:Mantle:1.16.5-1.6.147")
+    compile fg.deobf("slimeknights.tconstruct:TConstruct:1.16.5-3.3.0.308")
 }
 
 repositories {
@@ -61,4 +60,3 @@ repositories {
         url 'http://dvs1.progwml6.com/files/maven'
     }
 }
-
